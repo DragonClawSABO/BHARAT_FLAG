@@ -1,0 +1,53 @@
+body {
+    background-color: grey;
+}
+
+.b {
+    height: 100px;
+    width: 500px;
+}
+
+#first-strip {
+    background-color: #F4C430;
+    position: absolute;
+    top: 200px;
+    left: 118px;
+}
+
+#second-strip {
+    background-color: white;
+    position: absolute;
+    top: 300px;
+    left: 118px;
+}
+
+#third-strip {
+    background-color: green;
+    position: absolute;
+    top: 400px;
+    left: 118px;
+}
+
+#second-strip>div {
+    height: 100px;
+    width: 100px;
+    margin-left: 200px;
+    border-radius: 50%;
+}
+
+#block {
+    margin-top: 500px;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+P {
+    margin-top: 20px;
+    font-size: 100px;
+    text-align: center;
+    color: darkblue;
+    text-shadow: 10px 20px 20px darkblue;
+}
